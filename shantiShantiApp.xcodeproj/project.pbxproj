@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1C187A25E4432B00BB2284 /* shanti assets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C187925E4432B00BB2284 /* shanti assets */; };
 		4D7F046F25E4382800EAFBEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7F046E25E4382800EAFBEC /* AppDelegate.swift */; };
 		4D7F047125E4382800EAFBEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7F047025E4382800EAFBEC /* SceneDelegate.swift */; };
 		4D7F047325E4382800EAFBEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7F047225E4382800EAFBEC /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D1C187925E4432B00BB2284 /* shanti assets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = "shanti assets"; path = "../shanti assets"; sourceTree = "<group>"; };
 		4D7F046B25E4382800EAFBEC /* shantiShantiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shantiShantiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7F046E25E4382800EAFBEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D7F047025E4382800EAFBEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				4D7F047225E4382800EAFBEC /* ViewController.swift */,
 				4D7F047425E4382800EAFBEC /* Main.storyboard */,
 				4D7F047725E4382900EAFBEC /* Assets.xcassets */,
+				4D1C187925E4432B00BB2284 /* shanti assets */,
 				4D7F047925E4382900EAFBEC /* LaunchScreen.storyboard */,
 				4D7F047C25E4382900EAFBEC /* Info.plist */,
 			);
@@ -234,6 +237,7 @@
 				4D7F047B25E4382900EAFBEC /* LaunchScreen.storyboard in Resources */,
 				4D7F047825E4382900EAFBEC /* Assets.xcassets in Resources */,
 				4D7F047625E4382800EAFBEC /* Main.storyboard in Resources */,
+				4D1C187A25E4432B00BB2284 /* shanti assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
