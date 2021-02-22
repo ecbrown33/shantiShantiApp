@@ -16,17 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shantiStill.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TDT-Sn-ZHl">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shantiStill.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1eh-68-04K">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="1eh-68-04K" secondAttribute="bottom" id="199-DL-wsa"/>
+                            <constraint firstItem="1eh-68-04K" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dnx-9z-W0Y"/>
+                            <constraint firstAttribute="trailing" secondItem="1eh-68-04K" secondAttribute="trailing" id="g7W-HE-bgw"/>
+                            <constraint firstItem="1eh-68-04K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rGj-1O-74n"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="shantiBackground" destination="TDT-Sn-ZHl" id="vGZ-kb-fm3"/>
+                        <outlet property="shantiBackground" destination="1eh-68-04K" id="gNF-8J-10s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
