@@ -15,8 +15,22 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadingscreen.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="60k-jf-alT">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="60k-jf-alT" secondAttribute="height" multiplier="207:448" id="anx-H4-yqL"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="60k-jf-alT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3sq-79-chB"/>
+                            <constraint firstItem="60k-jf-alT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7B0-qQ-OTH"/>
+                            <constraint firstItem="60k-jf-alT" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="aZx-EM-p7f"/>
+                            <constraint firstAttribute="bottom" secondItem="60k-jf-alT" secondAttribute="bottom" id="et6-RR-Q8Z"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25,6 +39,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="loadingscreen.jpg" width="1730" height="3102"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -16,31 +16,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shantiStill.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1eh-68-04K">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shantiStill2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1eh-68-04K">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <gestureRecognizers/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8z-3H-LdX">
+                                <rect key="frame" x="110.66666666666669" y="276.66666666666669" width="154" height="20"/>
+                                <gestureRecognizers/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hello, Shanti Shanti.">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="17" name="Billy-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="1eh-68-04K" secondAttribute="bottom" id="199-DL-wsa"/>
+                            <constraint firstItem="u8z-3H-LdX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-119.5" id="cRn-Vp-yjK"/>
                             <constraint firstItem="1eh-68-04K" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dnx-9z-W0Y"/>
                             <constraint firstAttribute="trailing" secondItem="1eh-68-04K" secondAttribute="trailing" id="g7W-HE-bgw"/>
+                            <constraint firstItem="u8z-3H-LdX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ndJ-r8-Gfv"/>
                             <constraint firstItem="1eh-68-04K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rGj-1O-74n"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="uRV-lB-bm0" appends="YES" id="WOf-en-Q0i"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="shantiBackground" destination="1eh-68-04K" id="gNF-8J-10s"/>
+                        <outlet property="shantiSaying" destination="u8z-3H-LdX" id="dcI-Z3-w5f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="uRV-lB-bm0">
+                    <connections>
+                        <action selector="tapTapTap:" destination="BYZ-38-t0r" id="rbz-pG-ZoP"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="112.8" y="91.625615763546804"/>
         </scene>
     </scenes>
     <resources>
-        <image name="shantiStill.jpg" width="1730" height="3107"/>
+        <image name="shantiStill2.jpg" width="1730" height="3107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
